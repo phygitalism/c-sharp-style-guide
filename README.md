@@ -44,7 +44,7 @@ Interface names are noun (phrases) or adjectives.
 ```cs
 public interface IShape
 {
-	public int NumberOfEdges { get; }
+  public int NumberOfEdges { get; }
 }
 
 public interface IConnectable
@@ -105,6 +105,7 @@ public Assignment empAssignment;
 private int[] activeObjIds;
 ```
 **Exception**: contractions can be used only as acronyms for `HTML`, `XML`, `HUD` and so on.
+
 _Rationale:_ prevents inconsistent contractions.
 
 #### Don't use `snake_case` in _any_ identifiers. 
@@ -117,9 +118,9 @@ public class CheckBox
 		Active,
 		Inactive
 	}
-  
-  public HudController hudController;
-
+	
+	public HudController hudController;
+	
 	private State currentState; // not prefixed with underscore
 	public State CurrentState
 	{
