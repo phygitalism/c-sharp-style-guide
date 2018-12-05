@@ -39,6 +39,7 @@
 
 ### Blocks and indentation:
 
+- Only tabs are used for indentation
 - Blocks begin on a new line. Exception for single line block (e.g. `{ get; set; }`, `{ }` or `{ return 0; }`)
 ```csharp
 bool IsValid { get; set; }
