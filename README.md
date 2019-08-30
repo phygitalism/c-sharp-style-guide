@@ -54,12 +54,6 @@ void Initialize()
 	}
 }
 ```
-- A single line statement can go without block
-``` csharp
-foreach (var element in collection)
-	if (IsValid(element))
-		return element;
-```
 - Multi line statements should start with an indentation level and an operator on every line except first
 ```csharp
 var result = veryLongArgumentName1
