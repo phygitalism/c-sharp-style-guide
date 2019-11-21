@@ -147,9 +147,16 @@ class SomeType
 ```
 - Avoid code commenting. Exception for unclear code, that can't be understood without comments.
 
+### Unity:
+- Use private fields with attribute `SerializeField` for serializable fields
+```
+[SerializeField]
+private GameObject _someValue;
+```
+
 ## GENERAL ADVISES (not mandatory, but very desirable)
 
-- Use `var` instead of type in variable declarations. Exception for primitive types(e.g. `int`, `string`, `double` etc.)
+- Use `var` instead of type in variable declarations.
 - Replace `public` fields should be replaced with properties
 - Use expression syntax in methods and properties
 ```csharp
