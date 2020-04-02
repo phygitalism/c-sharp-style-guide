@@ -9,7 +9,7 @@
 - Identifiers should be meaningful (e.g. `vertexArray` or `loadedPage`, no `abc`, `number`)
 - Names:
 	- Noun for types, fields and properties (e.g. `CarDescription`, `humanNames`, `MeatBicycle`)
-	- Verb for methods (e.g. `Initialize`, `UpdateState`, `KillAllHumans`)
+	- Verb for methods (e.g. `Initialize`, `UpdateState`, `MakeGood`)
 	- Question for bool fields, properties and methods (`isDisposed`, `ShouldUpdate`, `AreValid`)
 - Conventions:
 	- `camelCase` for public and protected fields, variables and method arguments
@@ -153,7 +153,7 @@ class SomeType
 [SerializeField]
 private GameObject _someValue;
 ```
-- `PascalCase` for assets names
+- `PascalCase` for asset's names
 
 ## GENERAL ADVISES (not mandatory, but very desirable)
 
