@@ -153,6 +153,7 @@ class SomeType
 [SerializeField]
 private GameObject _someValue;
 ```
+- `PascalCase` for assets names
 
 ## GENERAL ADVISES (not mandatory, but very desirable)
 
